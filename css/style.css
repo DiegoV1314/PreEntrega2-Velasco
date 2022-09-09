@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+}
+
+/* ------- Header (start)----- */
+
+.encabezado{
+    background-color: #884f1afa;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.encabezado__logo{
+    display: flex;
+    align-items: center;
+}
+
+.encabezado__logo__titulo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#e1dfde;
+}
+
+.encabezado__menu__lista{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.encabezado__menu__lista li{
+    /* display: inline; */
+    margin: 0px 10px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border-bottom: 1.5px solid #fe9018;
+    border-top: 1px solid #fe9018;
+}
+
+
+.encabezado__menu__lista a{
+    color: orange;
+}
+
+
+.encabezado__menu__lista a:hover{
+    color: white;
+}
+
+.encabezado__menu__lista li:hover{
+    background-color:#fe9018;
+    
+}
+
+/* ------- header (end)----- */
+
+/* ------- basic (start)----- */
+
+.button{
+    background-color: #fe9018;
+    border: 2px solid black;
+    color: #794527;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* ------- basic (end)----- */
+
+
+/* ------- Footer (start)----- */
+
+.footer{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    background-color: #884f1afa;
+    justify-content: center;
+}
+
+.footer__social{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+/* ------- Footer (end)----- */
+
+/* ------- Home (start)----- */
+
+.mainHome{
+    background-image: url(../assets/images/coffee-love.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.mainHome__title{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+/* mejorar visibilidad de titulo */
+
+.mainHome__card{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+
+}
+
+.cardHome{
+    background-color: rgba(255, 255, 255, 0.274);
+    margin-top: 30px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 5px;
+    border: 2px solid #f0f0f0;
+}
+
+.cardHome p{
+    text-align: center;
+}
+
+/* ------- Home (end)----- */
+
+/* ------- coffe (start)----- */
+
+.mainCoffee{
+    padding: 30px 0px;
+    background-color: #ffddaa;
+
+}
+
+.mainCoffee__title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mainCoffe__text{
+    width: 80%;
+    margin: 10px auto 50px;
+    padding: 15px;
+    text-align: center;
+}
+
+.mainCoffee__beanCoffee{
+    background-color: #e5b66f;
+    width: 100%;
+    padding: 30px 2.5%;
+}
+
+.subtitle{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.beanCoffee__info{
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.beanCoffee__info__img{
+    padding: 30px 20px 0px;
+}
+
+.beanCoffee__info__img img{
+    width: 500px;
+    height: 330px;
+    border-radius: 10px;
+}
+
+.beanCoffee__info__text {
+    width: auto;
+    padding: 20px;
+}
+
+.beanCoffee__info__text h3{
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.beanCoffee__info__text p{
+    overflow-y: auto;
+    height: 216px;
+}
+
+.mainCoffe__typesRoast{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.typesRoast__info{
+    background: url(../assets/images/cafe-tostado-vs-torrado.webp);
+    background-position-x: center;
+    background-size:cover;
+    display: flex;
+    width: 85%;
+    height: 550px;
+    margin: 30px auto 0px;
+    justify-content: space-around;
+    padding: 20px 15px 40px 15px;
+}
+
+
+.typesRoast__info__text{
+    width: 40%;
+    height: 500px;
+    padding: 0px 8px 8px 8px;
+    
+}
+
+.typesRoast__info__text h3{
+    background-color:rgb(255 255 255 / 65%);
+    color: black;
+    width:fit-content;
+    margin: 10px auto 25px;
+}
+
+
+.typesRoast__info__text p{
+    background-color:rgb(255 255 255 / 65%);
+    color: black;
+    font-weight: bolder;
+    max-height: 450px;
+    text-align: center;
+    padding-top: 10px;
+    overflow-y: auto;
+
+}
+
+/* ------- coffe (end)----- */
+
+/* ------- preparation (start)----- */
+
+.buttonEncuesta{
+    position:absolute ;
+    
+}
+.mainPreparation{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPreparation__header{
+    background-color: #e5b66f;
+    padding: 15px 10px 17px;
+}
+
+.mainPreparation__header__title{
+    margin-bottom: 15px;
+}
+
+.mainPreparation__header__text{
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.ButtonPreparation__text{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.ButtonPreparation__container{
+    display: inline-block;
+    margin: 3px 1%;
+}
+
+.cardPreparation{
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+}
