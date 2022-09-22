@@ -30,6 +30,7 @@
 
 .encabezado__menu__lista{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -334,4 +335,55 @@ iframe{
     width: 450px;
     height: 253px;
     margin-left: 25px;
+}
+
+/* ------- coffee house (start)----- */
+
+.mainHouse__title{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.mainHouse__subtitle{
+    text-align: center;
+    margin: 20px 0px;
+    padding: 0px 5px;
+}
+
+.cardHouse{
+    background-color:#f0ddc0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardhouse__head{
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+}
+.cardHouse__head__title{
+    padding-top: 3px;
+}
+
+.cardHouse__head__follow{
+    padding-top: 6px;
+}
+
+.cardHouse__text{
+    text-align: center;
+    width: 50%;
+}
+
+.cardHouse__img{
+    display: flex;
+    gap: 15px;
+}
+
+.cardHouse__maps iframe{
+    margin-left: 0px;
+    padding-bottom: 15px;
 }

@@ -1,0 +1,26 @@
+
+.bg-cafe{
+    background-color: #884f1afa;
+}
+
+.logo{
+    max-width: min-content;
+}
+
+.item-menu{
+    color: orange;
+    font-weight: 500;
+    margin: 5px 5px;
+    border-radius: 5px;
+    border-bottom: 1.5px solid #fe9018;
+    border-top: 1px solid #fe9018;
+
+}
+
+.antes{
+    background-image: url(../assets/images/left-arrow.png);
+}
+
+.despues{
+    background-image: url(../assets/images/right-arrow.png);
+}
