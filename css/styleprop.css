@@ -4,17 +4,30 @@
 }
 
 .logo{
-    max-width: min-content;
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    margin: 0px;
+    font-size: 36px;
 }
 
 .item-menu{
+    text-align: center;
     color: orange;
     font-weight: 500;
     margin: 5px 5px;
     border-radius: 5px;
     border-bottom: 1.5px solid #fe9018;
     border-top: 1px solid #fe9018;
+    padding: 3px;
 
+}
+
+.item-menu:hover{
+    color: white;
+    background-color: #fe9018;
 }
 
 .antes{

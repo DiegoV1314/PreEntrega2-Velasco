@@ -18,8 +18,8 @@
 
     <nav class="navbar navbar-expand-lg bg-cafe">
         <div class="container-fluid">
-          <div class="encabezado-logo">
-            <a class="navbar-brand encabezado__link" href="../index.html"><img src="../assets/images/cafeteando-logo.webp" alt="logo"></a>
+          <div class="encabezado-logo logo">
+            <a class="navbar-brand encabezado__link" href="../index.html"><img src="../assets/images/cafeteando-logo.webp" width="50px" alt="logo"></a>
             <p class="encabezado__logo__titulo d-inline">CAFETEANDO</p>
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +51,55 @@
       </nav>
    
     <!-- ------------------------------------------------------------------------------------------ -->
+
+    <section class="mainContact">
+
+      <h1 class="mainContact__title">ESCRIBINOS</h1>
+
+      <div class="mainContact__form">
+
+          <form class="contact">
+
+              <div class="boxContact">
+                  <label for="name">Nombre</label>
+                      <input type="text" name="name" id="name" placeholder="¿cual es tu nombre?" required>
+              </div>
+              <div class="boxContact">
+                <label for="mail">Correo</label>
+                      <input type="email" id="mail" placeholder="ejemplo@correo.com.ar">
+              </div>
+
+              <div class="radioContact">
+                  <p class="radioContact__title">Motivo de tu contacto</p>
+                  
+                  <div class="radioContact__radio">
+                      <label>
+                          <input type="radio" name="item" id="" required value="recomendacion">Recomedación
+                      </label>
+                      <label>
+                          <input type="radio" name="item" id="" value="informacion">Información
+                      </label>
+                      <label>
+                          <input type="radio" name="item" id="" value="sugerencias">Sugerencias
+                      </label>
+                      <label>
+                          <input type="radio" name="item" id="" value="otros">Otros
+                      </label>
+                  </div>
+              </div>
+
+              <div class="textareaContact">
+                  <textarea name="contacto-usuario" id="" rows="10" placeholder="Queremos leerte.." required></textarea>
+              </div>
+
+              <input type="submit" value="enviar" class="button buttonContact">
+
+          </form>
+      </div>
+  </section>
+
+
+
 
 
     <footer class="footer" id="follow">

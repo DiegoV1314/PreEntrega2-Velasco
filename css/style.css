@@ -28,6 +28,13 @@
     color:#e1dfde;
 }
 
+@media (max-width: 380px) {
+    .logo p{
+        display: none !important;
+    }
+
+}
+
 .encabezado__menu__lista{
     display: flex;
     flex-direction: row;
@@ -104,7 +111,7 @@
 }
 
 .mainHome__title{ 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
     color: white;
     width: max-content;
     margin-left: auto;
@@ -341,13 +348,14 @@ iframe{
 
 .mainHouse__title{
     text-align: center;
+    padding: 0px 20px;
     margin: 20px 0px;
 }
 
 .mainHouse__subtitle{
     text-align: center;
     margin: 20px 0px;
-    padding: 0px 5px;
+    padding: 0px 50px;
 }
 
 .cardHouse{
@@ -383,7 +391,63 @@ iframe{
     gap: 15px;
 }
 
+.cardHouse__maps{
+    width: 90%;
+    justify-items: center;
+}
+
 .cardHouse__maps iframe{
-    margin-left: 0px;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+    .cardHouse__maps iframe{
+        width: 100%;
+    }
+
+}
+
+/* ------- coffee house (end)----- */
+
+
+/* ------- contact (start)----- */
+
+.mainContact__title{
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+.contact{
+    background-color: #e1dfde;
+    width: fit-content;
+    padding: 25px 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.boxContact{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boxContact input{
+    width: 100%;
+}
+
+.textareaContact textarea{
+    width: 100%;
+}
+
+@media (max-width: 576px){
+    .contact{
+        width: 100%;
+        padding: 25px 20px;
+    }
 }
